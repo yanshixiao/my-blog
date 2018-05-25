@@ -14,11 +14,11 @@ tags: Java maven
 5. mvn install 将项目生成 jar 包放在仓库中，以便别的模块调用。jar包也有可能是war包，其路径及名称都取决于`pom.xml`文件中的配置，如：
 
 ```
-  <modelVersion>4.0.0</modelVersion>
-	<groupId>com.chaboshi.web</groupId>
-	<artifactId>com.chaboshi.web.www</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.chaboshi.web</groupId>
+    <artifactId>com.chaboshi.web.www</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 ```
 这样的配置，将会在maven仓库中生成如下文件
 
